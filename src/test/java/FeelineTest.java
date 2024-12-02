@@ -16,7 +16,7 @@ public class FeelineTest {
 
     @Test
     public void eatMeatReturnPredatorTest() throws Exception {
-       // Feline feline = new Feline();
+
         List<String> expectedResult = List.of("Животные", "Птицы", "Рыба");
         List<String> actualResult = feline.eatMeat();
         assertEquals(expectedResult, actualResult);
@@ -24,7 +24,7 @@ public class FeelineTest {
 
     @Test
     public void getFamilyReturnFeelineFamilyTest() {
-       // Feline feline = new Feline();
+
         String expectedResult = "Кошачьи";
         String actualResult = feline.getFamily();
         assertEquals(expectedResult, actualResult);
@@ -32,7 +32,7 @@ public class FeelineTest {
 
     @Test
     public void GetKittensReturnOneKittenTest() {
-       // Feline feline = new Feline();
+
         assertEquals(1, feline.getKittens());
     }
 

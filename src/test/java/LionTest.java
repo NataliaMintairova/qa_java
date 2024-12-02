@@ -58,7 +58,4 @@ public class LionTest {
     Mockito.when(feline.getFood("Хищник")).thenReturn(expected);
     assertEquals(expected, lion.getFood());
 }
-
-
-
 }
